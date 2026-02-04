@@ -12,7 +12,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodApp">
         <activity
-            android:name=".MainActivity"
+            android:name=".main.ItemPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.ProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.RecoveryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.AuthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".launch.SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".launch.WalkboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
